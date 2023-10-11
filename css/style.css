@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 1.3em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.line {
+    width: 200px;
+    margin-left: 0px;
+    border-color: #b1b1b1;
+}
+
+.line2 {
+    border-color: #b1b1b1;
+}
+
+.text_p {
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    line-height: 38px;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+    background: url(https://phonoteka.org/uploads/posts/2021-05/1620126692_45-phonoteka_org-p-fon-dlya-prezentatsii-chertezhi-49.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo_img {
+    display: flex;
+}
+
+.main-menu {
+    list-style: none;
+}
+
+footer {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    padding: 30px 0 30px 0;
+}
+
+.about_me {
+    text-align: center;
+}
+
+.about-text {
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    line-height: 38px;
+}
+
+.special_text:lang(en) {
+    font-weight: bold;
+    font-size: 36px;
+    color: #168316;
+} 
+
+.about-text .example_text {
+    color: red;
+}
+
+.avatar_article1 {
+    Border: 4px solid rgb(121, 119, 119);
+    width:190px;
+}
+
+.articles {
+    text-align: center;
+}
+
+h1 {
+    text-transform: lowercase;
+    color: rgb(45, 145, 192);
+    font-size: 2.4rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.list-articles {
+    text-align: left;
+}
+
+.data {
+    font-size: 0.8rem;
+    margin: 40px;
+}
+
+.prepod {
+    margin: 0;
+}
+
+.avatar {
+    border-radius: 90px;
+}
+
+.testimg+.testText {
+    margin: 120px;
+}
+
+.testText {
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    line-height: 38px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_article1 {
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 38px;
+}
+
+.block_text {
+    margin-top: 55px;
+}
+
+.block_img {
+    margin-right: 200px;
+    transform: scaleX(-1)
+}
+
+.border_maths_title {
+    font-size: 1em;
+    text-align: center;
+}
+
+.high_mathslvl1 {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.ol_list {
+    padding-left: 40px;
+}
+
+.border_maths {
+    Border: 1px solid #585858;
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px 0px 30px 0px;
+}
+
+.article_subtitle {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.list_enter {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.list_ul {
+    padding: 0;
+}
+
+.tabl {
+    font-size: 1em;
+    font-style: unset;
+    text-align: center;
+}
+
+.div_tablica {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.underline {
+    border-bottom: 2px solid #000;
+}
+
+.overline {
+    border-top: 1px solid #000;
+}
+
+.vvedenie_kalkulatora {
+    display: flex;
+}
+
+.kartinka_kalkulatora {
+    width: 400px;
+}
+
+.razdeli_mathway {
+    font-size: 22px;
+}
+
+.kartinka_mathway {
+    width: 400px;
+    margin-left: 420px;
+    margin-top: 20.8px;
+}
+
+.ramka {
+    border: 2px solid #000;
+    padding: 2px 2px 1px 2px;
+}
+
+.razdeli_semestra {
+    font-size: 22px;
+}
+
+.kartinka_semestr {
+    width: 520px;
+    margin-left: 200px;
+    margin-top: 20.8px;
+}
+
+.razdeli_photomath {
+    font-size: 22px;
+}
+
+.kartinka_photomath {
+    width: 400px;
+    margin-left: 420px;
+    margin-top: 20.8px;
+}
+
+.razdeli_mathforyou {
+    font-size: 22px;
+}
+
+.kartinka_mathforyou {
+    width: 150px;
+    margin-left: 420px;
+    margin-top: 20.8px;
+}
+
+.footer_wrapper {
+    display: flex;
+}
+
+.icon_link {
+    margin-right: 30px;
+}
+
+.icon_link:last-child {
+    margin-right: 0;
+}
+
+.icon_link .facebook {
+    border: 2px solid black;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: blanchedalmond;
+}
+
+a:hover {
+    color: black;
+}
+
+a:focus {
+    color: firebrick;
+    border: 1px solid royalblue;
+}
+
+p:lang(en) {
+    font-style: italic;
+}
+
+.about-text::first-line {
+    letter-spacing: 0.3em;
+}
+
+.text_article1::first-line {
+    letter-spacing: 0.3em;
+    font-style: italic;
+}
+
+.text_p::first-line {
+    letter-spacing: 0.3em;
+    text-transform: capitalize;
+}
+
+.main-menu li::after {
+    content: "Jirdans";
+    margin-left: 5px;
+    font-size: 21px;
+    color: rgb(131, 122, 128);
+}
+
+.main-menu li {
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.main-menu li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: 0.6s;
+}
+
+.main-menu li:hover::before {
+    width: 100%;
+}
+
+.list-articles li:first-child a:after {
+    content: "Важно!";
+    margin-left: 6px;
+    font-size: 21px;
+    color: red;
+    border: 2px dashed black;
+}
+
+.list-articles li{
+    display: block;
+    font-size: 1.1em;
+    line-height: 40px;
+}
+
+.list-articles li a {
+    position: relative;
+}
+
+.list-articles li:nth-child(2n) {
+    font-size: larger;
+    font-family: comic;
+    font-weight: bold;
+}
+
+.list-articles li a:before {
+    content:"";
+    display: block;
+	position: absolute;
+	bottom: 0;
+	width: 0%;
+	height: 1.5px;
+	background: black;
+    transition: 1.2s;
+}
+
+.list-articles li a:hover::before {
+    width: 100%;
+}
+
+.vkontakt::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 1;
+    color: lavender;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .2s;
+}
+
+.vkontakt:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.vkontakt {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 20px;
+    bottom: 0;
+    width: 3.3%;
+    height: 2px;
+}
+
+.vkontakt::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -17px;
+    width: 0%;
+    height: 2px;
+    background: lavender;
+    transition: 0.2s;
+}
+
+.vkontakt:hover::before {
+    width: 100%;
+}
+
+.table_dolg {
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+.table_dolg td,
+.table_dolg th {
+    border: 3px solid black;
+}
+
+.reg input[type='text'] ,
+.reg input[type='password']{
+    border: 2px solid darkred;
+    background: lavender;
+    padding: 5px 15px ;
+    margin-top: 15px;
+}
+
+.reg input[type='submit'] {
+    border: none;
+    background: blueviolet;
+    color: wheat;
+    border-radius: 5px;
+    padding: 5px 4px;
+    margin-left: 20px;
+}
+
+.reg input[type='submit']:hover,
+.reg input[type='submit']:focus {
+    background: rebeccapurple;
+}
+
+a[href^='http'] {
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+th {
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: rgb(109, 53, 81);
+    border: 2px solid black;
+}
+
+th:first-child {
+    color: rgb(150, 12, 255);
+    font-size: 25px;
+}
+
+
+td {
+padding-right: 50px;
+padding-bottom: 10px;
+border: 2px solid black;
+}
+
+td:nth-child(2n) {
+    background-color: rgb(151, 145, 158);
+}
+
+td:nth-child(2n+1) {
+    background-color: rgb(92, 65, 78);
+}
+
+.form {
+    text-align: center;
+    width: 320px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+}
+
+#contact-form input[type='text'] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(10, 6, 6);
+    background-color: #eddfff;
+}
+
+#contact-form input[type='email'] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(10, 6, 6);
+    background-color: #eddfff;
+}
+
+.form_item {
+    font-style: italic;
+}
+
+.form__item {
+    font-style: italic;
+    height: 48px;
+}
+
+.select-css {
+    background-color: #eddfff;
+    width: 250px;
+}
+
+#contact-form input[type='submit'] {
+    height: 30px;
+    width: 150px;
+    font-style: italic;
+    background-color: rgb(134, 99, 109);
+    margin-bottom: 7px;
+}
+
+#contact-form input[type="submit"]:hover {
+    color: pink;
+    background-color: rgb(106, 98, 107);
+}
+
+.text_field {
+    font-style: italic;
+    background-color: #eddfff;
+    resize: none;
+}
+
+.form_radio {
+    font-style: italic;
+    margin: 0 30px 10px 30px;
+    display: inline-grid;
+    justify-content: space-between;
+}
+
+.form_radio_wrapper {
+    display: flex;
+    width: 40%;
+}
+
+.form_radio_date {
+    margin: 5px 0px 0px 0px;
+    background-color: #eddfff;
+    border-radius: 15px;
+    font-style: italic;
+}

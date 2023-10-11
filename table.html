@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="table_dolg">
+        <caption>BigZ</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Vitayler</th>
+                <th rowspan="2">Ildarik</th>
+                <th rowspan="2">Vandal</th>
+                <th rowspan="2">Vacok</th>
+            </tr>
+            <tr>
+                <th>skidka</th>
+                <th>bez skidki</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jirdans</td>
+                <td>Ruki poteryalik</td>
+                <td>74rus</td>
+                <td>Rusich</td>
+            </tr>
+            <tr>
+                <th>200tenge</th>
+                <th>200000$</th>
+                <th>100derham</th>
+                <th>2gold coin</th>
+            </tr>
+        </tbody>
+    </table>
+    <form class="reg">
+        <label for="login">Введите имя</label> 
+        <input id="login" type="text" placeholder="Введите имя" required> <br>
+        <input type="password" name="pass" required> <br>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="male">муж</label> <br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="male">жен</label>
+        <select name="type" id="type">
+            <option value="student">студент</option>
+            <option value="teacher">учитель</option>
+            <option value="parent">родитель</option>
+        </select> <br>
+        <textarea name="about" id="about" placeholder="Немного о себе" cols="30" rows="10"></textarea>
+
+
+        <input id="agree" type="checkbox">
+        <label for="agree">Согласие</label> <br>
+        <input type="submit" value="зарегистрироваться">
+    </form>
+</body>
+</html>
